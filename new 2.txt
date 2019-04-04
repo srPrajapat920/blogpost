@@ -1,0 +1,20 @@
+
+
+transfer certi
+
+id
+student_id
+created date
+
+
+
+Bonafied
+
+id
+student_id
+created_date
+
+
+
+
+SELECT s.enrollment_no,s.first_name,b.id as bonofiedid  from student s , bonefide b where b.student_id = s.id and b.id=235;
